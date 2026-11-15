@@ -2,7 +2,7 @@
 
 This package provides a script to reproduce key data-quality, descriptive, scale-reliability, and illustrative logistic-regression results for the dataset described in the mda Data Report, *A Multimodal Clinical-Psychosocial and Speech-Linked Dataset of Psychiatric Patients in Bangladesh*.
 
-**The package contains code only. It does not contain participant-level data, identifiers, or audio recordings.** Obtain the released dataset from Mendeley Data: https://doi.org/10.17632/wr8n8kz4vm.4
+**The package contains code only. It does not contain participant-level data, identifiers, or audio recordings.** Obtain the released dataset from Mendeley Data: https://doi.org/10.17632/wr8n8kz4vm.3
 
 ## Contents
 
@@ -50,6 +50,6 @@ CSV and Excel inputs are supported. Column names are normalized by trimming whit
 
 ## Reproducibility status
 
-The calculations were run against the dataset files deposited in Mendeley Data Version 3 (https://doi.org/10.17632/wr8n8kz4vm.3), which are unchanged in the current Version 4 (https://doi.org/10.17632/wr8n8kz4vm.4), in a Jupyter notebook using Python 3.13.5, pandas 2.2.3, numpy 2.1.3, scipy 1.15.3, statsmodels 0.14.4, scikit-learn 1.6.1, and openpyxl 3.1.5. The results matched the values reported in the manuscript: Cronbach’s alpha of .667 (PHQ-9) and .726 (GAD-7), Spearman’s rho of .618 between the two total scores, audio-file availability of 187, 187, and 186 recordings, and the logistic-regression performance in Table 8.
+The calculations were run against the dataset files deposited in Mendeley Data Version 3 (https://doi.org/10.17632/wr8n8kz4vm.3) in a Jupyter notebook using Python 3.13.5, pandas 2.2.3, numpy 2.1.3, scipy 1.15.3, statsmodels 0.14.4, scikit-learn 1.6.1, and openpyxl 3.1.5. The results matched the values reported in the manuscript: Cronbach’s alpha of .667 (PHQ-9) and .726 (GAD-7), Spearman’s rho of .618 between the two total scores, audio-file availability of 187, 187, and 186 recordings, and the logistic-regression performance in Table 8.
 
-The standalone script `PMH.py` was run on Version 3 dataset file on 12 October 2026 and produced the same values.
+The standalone script `PMH.py` was run on the Version 3 dataset file on 12 October 2026 and produced the same values.
